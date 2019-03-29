@@ -13,7 +13,8 @@ def check_command_line_tools():
 
 def check_python_modules():
     """Check python package availability"""
-    PACKAGES = ['ebltable','pyfits', 'astropy','yaml','iminuit','numpy','scipy','matplotlib','ebl']
+    PACKAGES = ['ebltable', 'astropy','yaml','iminuit','numpy','scipy',
+                'matplotlib','gammapy','ctools','cscripts', 'configobj']
     print('*** PYTHON PACKAGES ***')
     for package in PACKAGES:
         try:
