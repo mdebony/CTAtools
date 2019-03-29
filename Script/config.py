@@ -22,7 +22,7 @@ def queryConfig():
     if not(out=='') :
         config['out'] = out
         config['submit'] = 'False'
-    config['analysisPipeline'] = 'ctools'
+    config['analysisChain'] = 'ctools'
 
 #    Informations about the source
     config['target'] = {}
